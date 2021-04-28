@@ -5,7 +5,7 @@ namespace Store.Domain.Entities
         public Customer(string name, string email)
         {
             Name = name;
-            email = email;
+            Email = email;
         }
 
         public string Name { get; private set; }
